@@ -5,7 +5,7 @@ import {Actions, CoreActions} from './actions';
 import {INIT, PUSH, REPLACE, POP, DISMISS, RESET} from './actions';
 
 import routerReducer from './reducer';
-import Animations from './Animations';
+import Animations from './animations';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
